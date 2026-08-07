@@ -1,0 +1,22 @@
+{
+  "LICENSE": {
+    "bytes": 468,
+    "sha256": "d7928e041aeda42d884358f82b6be3271149c97e97e4bf672c207e2e09d5b27e"
+  },
+  "PROVENANCE.json": {
+    "bytes": 2337,
+    "sha256": "7bd0196bdf191dd26fab5bbdc35c9b0ad26e19be509730601a0f5e691c446291"
+  },
+  "README.md": {
+    "bytes": 21829,
+    "sha256": "583af4bf1feaa2327994ac24f50450c847d451e4e39e991ed55c026ce0c6b63f"
+  },
+  "catalog.json": {
+    "bytes": 117119,
+    "sha256": "30c171fbcf9bd8aa9c518c8534a7ef8815e9a80a1079c182a58035290b826c29"
+  },
+  "index.html": {
+    "bytes": 166865,
+    "sha256": "04f918122879b44dd7a5c390d23c1a6aa3986d9ccde8f25b78170bb75f54259e"
+  }
+}
