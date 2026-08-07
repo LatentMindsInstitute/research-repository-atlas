@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-08-07",
+  "method": [
+    "Inventoried the named GitHub accounts, stars, repositories and public Lists.",
+    "Fetched and machine-screened 859 root READMEs in the 952-repository primary universe.",
+    "Separated forks, canonical upstreams, archived resources, prototypes and public operational resources.",
+    "Obtained an independent second-engineer review before live mutation.",
+    "Reviewed all 26 PKU-Alignment repositories and selected 22 after category and canonical corrections.",
+    "Verified every live GitHub List count after mutation."
+  ],
+  "source_coverage": {
+    "primary_universe_unique_repositories": 952,
+    "root_readmes_fetched": 859,
+    "readme_discovery_queue_unreviewed": 3436,
+    "personal_repositories_inventory": {
+      "total": 76,
+      "public": 61,
+      "private": 15
+    },
+    "personal_star_count_live": 173,
+    "saibo_public_stars_crawled": 488,
+    "saibo_ui_star_count": 517,
+    "saibo_unresolved_count_gap": 29,
+    "pku_alignment_repositories_reviewed": 26,
+    "pku_alignment_repositories_selected": 22
+  },
+  "exclusions": {
+    "private_personal_repository_names": "Excluded and not enumerated in this public bundle.",
+    "pku_alignment": [
+      {
+        "full_name": "PKU-Alignment/.github",
+        "reason": "Organization metadata only."
+      },
+      {
+        "full_name": "PKU-Alignment/Aligner2024.github.io",
+        "reason": "Project website duplicate of the aligner repository."
+      },
+      {
+        "full_name": "PKU-Alignment/Beaver-zh-hk",
+        "reason": "Localized derivative with no substantive root documentation."
+      },
+      {
+        "full_name": "PKU-Alignment/s1-m",
+        "reason": "Multimodal test-time reasoning repository without a safety-specific research focus."
+      }
+    ],
+    "one_hop_repository_links": "3,436 links remain an unreviewed discovery queue and are not included here."
+  },
+  "limitations": [
+    "Repository state, licences and maintenance status can change after the snapshot date.",
+    "README screening is not a code audit, security review or replication.",
+    "The Saibo public crawl returned 488 accessible stars while the interface displayed 517. The 29-item gap is unresolved.",
+    "Dual-use resources require context-specific legal, ethical and security review before use."
+  ]
+}
