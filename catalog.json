@@ -1,0 +1,2969 @@
+{
+  "schema_version": 1,
+  "title": "Latent Minds Institute Research Repository Atlas",
+  "snapshot_date": "2026-08-07",
+  "status": "curated-reference-catalogue",
+  "institution": "Latent Minds Institute",
+  "organization": "https://github.com/LatentMindsInstitute",
+  "scope": "Public repositories relevant to AI safety, interpretability, evaluations, red teaming, reinforcement learning environments, research infrastructure and technical study.",
+  "evidence_boundary": "Inclusion is a curation decision, not an endorsement, security audit, replication or claim that a repository is production ready.",
+  "counts": {
+    "categories": 18,
+    "unique_repositories": 151,
+    "category_memberships": 181,
+    "pku_alignment_repositories_reviewed": 26,
+    "pku_alignment_repositories_selected": 22
+  },
+  "categories": [
+    {
+      "name": "RL Environments & Games",
+      "description": "Multi-agent environments, social dilemmas, bargaining, game theory, and RL simulations for Crucible experiments.",
+      "tier": "operational-core",
+      "repository_count": 15,
+      "repositories": [
+        {
+          "full_name": "cfpark00/rl-environments",
+          "url": "https://github.com/cfpark00/rl-environments",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "Farama-Foundation/Gymnasium",
+          "url": "https://github.com/Farama-Foundation/Gymnasium",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "Farama-Foundation/PettingZoo",
+          "url": "https://github.com/Farama-Foundation/PettingZoo",
+          "description": "A standard API for multi-agent reinforcement learning environments, with popular reference environments and related utilities"
+        },
+        {
+          "full_name": "gambitproject/gte",
+          "url": "https://github.com/gambitproject/gte",
+          "description": "Game Theory Explorer: Build, explore and solve extensive form games."
+        },
+        {
+          "full_name": "google-deepmind/meltingpot",
+          "url": "https://github.com/google-deepmind/meltingpot",
+          "description": "A suite of test scenarios for multi-agent reinforcement learning."
+        },
+        {
+          "full_name": "google-deepmind/open_spiel",
+          "url": "https://github.com/google-deepmind/open_spiel",
+          "description": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games."
+        },
+        {
+          "full_name": "HumanCompatibleAI/overcooked_ai",
+          "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+          "description": "A benchmark environment for fully cooperative human-AI performance."
+        },
+        {
+          "full_name": "joie-zhang/bargain",
+          "url": "https://github.com/joie-zhang/bargain",
+          "description": "Multi-Agent LLM Bargaining and Negotiation"
+        },
+        {
+          "full_name": "longtermrisk/marltoolbox",
+          "url": "https://github.com/longtermrisk/marltoolbox",
+          "description": "A toolbox with the goal of speeding up research on bargaining in MARL (cooperation problems in MARL)."
+        },
+        {
+          "full_name": "oxwhirl/pymarl",
+          "url": "https://github.com/oxwhirl/pymarl",
+          "description": "Python Multi-Agent Reinforcement Learning framework"
+        },
+        {
+          "full_name": "PKU-Alignment/ReDMan",
+          "url": "https://github.com/PKU-Alignment/ReDMan",
+          "description": "Safe dexterous-manipulation simulation platform. Documentation remains in development."
+        },
+        {
+          "full_name": "PKU-Alignment/safety-gymnasium",
+          "url": "https://github.com/PKU-Alignment/safety-gymnasium",
+          "description": "Unified safe reinforcement learning environment and benchmark."
+        },
+        {
+          "full_name": "PKU-Alignment/VLA-Arena",
+          "url": "https://github.com/PKU-Alignment/VLA-Arena",
+          "description": "Vision-language-action evaluation framework with safety, generalization, and long-horizon task suites."
+        },
+        {
+          "full_name": "safety-research/social_games",
+          "url": "https://github.com/safety-research/social_games",
+          "description": "llms playing coup"
+        },
+        {
+          "full_name": "Unity-Technologies/ml-agents",
+          "url": "https://github.com/Unity-Technologies/ml-agents",
+          "description": "The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning."
+        }
+      ]
+    },
+    {
+      "name": "AI Red Teaming & Jailbreaks",
+      "description": "Dual-use, defensive research on jailbreaks, prompt injection, red-team harnesses, and guardrail testing.",
+      "tier": "operational-core",
+      "repository_count": 11,
+      "repositories": [
+        {
+          "full_name": "centerforaisafety/HarmBench",
+          "url": "https://github.com/centerforaisafety/HarmBench",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "dissensus-ai/autonomous-red-team",
+          "url": "https://github.com/dissensus-ai/autonomous-red-team",
+          "description": "Autonomous Red Team: Multi-Agent Adversarial Security Testing ,  paper + proof-of-concept framework | DAI-2513 | Dissensus AI Working Paper"
+        },
+        {
+          "full_name": "elder-plinius/T3MP3ST",
+          "url": "https://github.com/elder-plinius/T3MP3ST",
+          "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness"
+        },
+        {
+          "full_name": "Goochbeater/Spiritual-Spell-Red-Teaming",
+          "url": "https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming",
+          "description": "A repo for jailbreaking various LLMs, mainly Claude"
+        },
+        {
+          "full_name": "haizelabs/llama3-jailbreak",
+          "url": "https://github.com/haizelabs/llama3-jailbreak",
+          "description": "A trivial programmatic Llama 3 jailbreak. Sorry Zuck!"
+        },
+        {
+          "full_name": "JailbreakBench/jailbreakbench",
+          "url": "https://github.com/JailbreakBench/jailbreakbench",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "llm-attacks/llm-attacks",
+          "url": "https://github.com/llm-attacks/llm-attacks",
+          "description": "Universal and Transferable Attacks on Aligned Language Models"
+        },
+        {
+          "full_name": "meta-llama/PurpleLlama",
+          "url": "https://github.com/meta-llama/PurpleLlama",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "promptfoo/promptfoo",
+          "url": "https://github.com/promptfoo/promptfoo",
+          "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic."
+        },
+        {
+          "full_name": "QData/TextAttack",
+          "url": "https://github.com/QData/TextAttack",
+          "description": "TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/"
+        },
+        {
+          "full_name": "safety-research/agent-transcript-editor",
+          "url": "https://github.com/safety-research/agent-transcript-editor",
+          "description": "Web UI for viewing, editing, and AI-assisted red teaming of AI agent transcripts"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity & Exploit Research",
+      "description": "Dual-use AI security, exploit benchmarks, agent scanners, bug finding, and defensive cyber tooling.",
+      "tier": "operational-core",
+      "repository_count": 5,
+      "repositories": [
+        {
+          "full_name": "aliasrobotics/cai",
+          "url": "https://github.com/aliasrobotics/cai",
+          "description": "Cybersecurity AI (CAI), the framework for AI Security"
+        },
+        {
+          "full_name": "Hack-with-Github/Awesome-Hacking",
+          "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "description": "A collection of various awesome lists for hackers, pentesters and security researchers"
+        },
+        {
+          "full_name": "ispras/casr",
+          "url": "https://github.com/ispras/casr",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "snyk/agent-scan",
+          "url": "https://github.com/snyk/agent-scan",
+          "description": "Security scanner for AI agents, MCP servers and agent skills."
+        },
+        {
+          "full_name": "sunblaze-ucb/exploitgym",
+          "url": "https://github.com/sunblaze-ucb/exploitgym",
+          "description": "ExploitGym is a large-scale, realistic benchmark built from real-world vulnerabilities designed to evaluate AI agents' ability to develop exploits."
+        }
+      ]
+    },
+    {
+      "name": "Alignment: Control & Monitoring",
+      "description": "Control evaluations, trusted monitoring, sandbox escape, legibility, deception detection, and tamper resistance.",
+      "tier": "operational-core",
+      "repository_count": 9,
+      "repositories": [
+        {
+          "full_name": "invariantlabs-ai/invariant",
+          "url": "https://github.com/invariantlabs-ai/invariant",
+          "description": "Guardrails for secure and robust agent development"
+        },
+        {
+          "full_name": "rishub-tamirisa/tamper-resistance",
+          "url": "https://github.com/rishub-tamirisa/tamper-resistance",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/agent-escape-bench",
+          "url": "https://github.com/safety-research/agent-escape-bench",
+          "description": "Sandbox escape benchmark for LLM capability evaluation"
+        },
+        {
+          "full_name": "safety-research/assistant-axis",
+          "url": "https://github.com/safety-research/assistant-axis",
+          "description": "The Assistant Axis is a direction in activation space that captures how \"Assistant-like\" a model's behavior is. Models can drift away from the Assistant during conversations, sometimes toward bizarre or harmful personas. This repo contains a pipeline for generating the Assistant Axis and notebooks for monitoring..."
+        },
+        {
+          "full_name": "safety-research/legibility",
+          "url": "https://github.com/safety-research/legibility",
+          "description": "Which models are illegible under what conditions, and why? How does that impact monitorability?"
+        },
+        {
+          "full_name": "safety-research/lie-detector",
+          "url": "https://github.com/safety-research/lie-detector",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/sleight-bench",
+          "url": "https://github.com/safety-research/sleight-bench",
+          "description": "Benchmark dataset for evaluating trusted monitors on AI agent transcripts"
+        },
+        {
+          "full_name": "safety-research/trusted-monitor",
+          "url": "https://github.com/safety-research/trusted-monitor",
+          "description": "Evaluate AI agent transcripts for suspicious behavior (0-100 scoring)"
+        },
+        {
+          "full_name": "UKGovernmentBEIS/control-arena",
+          "url": "https://github.com/UKGovernmentBEIS/control-arena",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        }
+      ]
+    },
+    {
+      "name": "Alignment: Model Organisms",
+      "description": "Alignment-faking model organisms, emergent misalignment, data poisoning, and falsifiable misbehavior testbeds.",
+      "tier": "operational-core",
+      "repository_count": 7,
+      "repositories": [
+        {
+          "full_name": "redwoodresearch/bench-af-2",
+          "url": "https://github.com/redwoodresearch/bench-af-2",
+          "description": "Bench Alignment Faking: Alignment faking model organisms, detectors, and environments to catch misaligned models (Joshua Clymer MATS Stream Summer 2025)"
+        },
+        {
+          "full_name": "safety-research/alignment-faking-extensions",
+          "url": "https://github.com/safety-research/alignment-faking-extensions",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/data-poisoning-public",
+          "url": "https://github.com/safety-research/data-poisoning-public",
+          "description": "Data poisoning experiments to support the study of emergent misalignment"
+        },
+        {
+          "full_name": "safety-research/false-facts",
+          "url": "https://github.com/safety-research/false-facts",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/inoculation-prompting",
+          "url": "https://github.com/safety-research/inoculation-prompting",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/misalignment-indicators",
+          "url": "https://github.com/safety-research/misalignment-indicators",
+          "description": "Source code for the paper: Probing the Misaligned Thinking Process of Language Models"
+        },
+        {
+          "full_name": "safety-research/open-source-alignment-faking",
+          "url": "https://github.com/safety-research/open-source-alignment-faking",
+          "description": "Open Source Replication of Anthropic's Alignment Faking Paper"
+        }
+      ]
+    },
+    {
+      "name": "Safety Evals & Auditing",
+      "description": "Evaluation frameworks, auditing agents, safety benchmarks, model graders, and reproducible evaluation infrastructure.",
+      "tier": "operational-core",
+      "repository_count": 19,
+      "repositories": [
+        {
+          "full_name": "meridianlabs-ai/inspect_petri",
+          "url": "https://github.com/meridianlabs-ai/inspect_petri",
+          "description": "An alignment auditing agent capable of quickly exploring alignment hypothesis"
+        },
+        {
+          "full_name": "METR/hawk",
+          "url": "https://github.com/METR/hawk",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "METR/task-standard",
+          "url": "https://github.com/METR/task-standard",
+          "description": "METR Task Standard"
+        },
+        {
+          "full_name": "PKU-Alignment/eval-anything",
+          "url": "https://github.com/PKU-Alignment/eval-anything",
+          "description": "All-modality safety evaluation framework integrating more than 50 datasets."
+        },
+        {
+          "full_name": "PKU-Alignment/MM-DeceptionBench",
+          "url": "https://github.com/PKU-Alignment/MM-DeceptionBench",
+          "description": "Static multimodal deception benchmark with six deception categories. It is not presented as a monitoring tool."
+        },
+        {
+          "full_name": "PKU-Alignment/Safe-Policy-Optimization",
+          "url": "https://github.com/PKU-Alignment/Safe-Policy-Optimization",
+          "description": "Safe reinforcement learning algorithm benchmark. It is not categorized as an environment."
+        },
+        {
+          "full_name": "PKU-Alignment/safety-gymnasium",
+          "url": "https://github.com/PKU-Alignment/safety-gymnasium",
+          "description": "Unified safe reinforcement learning environment and benchmark."
+        },
+        {
+          "full_name": "PKU-Alignment/SafeVLA",
+          "url": "https://github.com/PKU-Alignment/SafeVLA",
+          "description": "Constrained-learning code and benchmark assets for VLA safety alignment."
+        },
+        {
+          "full_name": "PKU-Alignment/SPIKE-Bench",
+          "url": "https://github.com/PKU-Alignment/SPIKE-Bench",
+          "description": "Biosecurity benchmark with a public screening pipeline and reviewed access to the prompt set."
+        },
+        {
+          "full_name": "PKU-Alignment/VLA-Arena",
+          "url": "https://github.com/PKU-Alignment/VLA-Arena",
+          "description": "Vision-language-action evaluation framework with safety, generalization, and long-horizon task suites."
+        },
+        {
+          "full_name": "safety-research/auditing-agents",
+          "url": "https://github.com/safety-research/auditing-agents",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/bloom",
+          "url": "https://github.com/safety-research/bloom",
+          "description": "bloom - evaluate any behavior immediately 🌸🌱"
+        },
+        {
+          "full_name": "safety-research/faithful-cot",
+          "url": "https://github.com/safety-research/faithful-cot",
+          "description": "Code for \"Faithfulness as Information Flow: Evaluating and Training Faithful Chain-of-Thought Reasoning\""
+        },
+        {
+          "full_name": "safety-research/finetuning-auditor",
+          "url": "https://github.com/safety-research/finetuning-auditor",
+          "description": "Auditing agents for fine-tuning safety"
+        },
+        {
+          "full_name": "safety-research/impossiblebench",
+          "url": "https://github.com/safety-research/impossiblebench",
+          "description": "Official Inspect Implementation for \"ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases\""
+        },
+        {
+          "full_name": "safety-research/safety-examples",
+          "url": "https://github.com/safety-research/safety-examples",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/safety-tooling",
+          "url": "https://github.com/safety-research/safety-tooling",
+          "description": "Inference API for many LLMs and other useful tools for empirical research"
+        },
+        {
+          "full_name": "safety-research/SCONE-bench",
+          "url": "https://github.com/safety-research/SCONE-bench",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "UKGovernmentBEIS/inspect_ai",
+          "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+          "description": "Inspect: A framework for large language model evaluations"
+        }
+      ]
+    },
+    {
+      "name": "Mech Interp Tools",
+      "description": "Core libraries and interfaces for activations, circuits, sparse features, interventions, and visualization.",
+      "tier": "operational-core",
+      "repository_count": 10,
+      "repositories": [
+        {
+          "full_name": "decoderesearch/circuit-tracer",
+          "url": "https://github.com/decoderesearch/circuit-tracer",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "decoderesearch/SAELens",
+          "url": "https://github.com/decoderesearch/SAELens",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "hijohnnylin/neuronpedia",
+          "url": "https://github.com/hijohnnylin/neuronpedia",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "ndif-team/nnsight",
+          "url": "https://github.com/ndif-team/nnsight",
+          "description": "The nnsight package enables interpreting and manipulating the internals of deep learned models."
+        },
+        {
+          "full_name": "neelnanda-io/Neuroscope",
+          "url": "https://github.com/neelnanda-io/Neuroscope",
+          "description": "Accompanying codebase for neuroscope.io, a website for displaying max activating dataset examples for language model neurons"
+        },
+        {
+          "full_name": "PKU-Alignment/SAELens-V",
+          "url": "https://github.com/PKU-Alignment/SAELens-V",
+          "description": "PKU accepted-release repository for multimodal sparse-autoencoder training and analysis."
+        },
+        {
+          "full_name": "PKU-Alignment/TransformerLens-V",
+          "url": "https://github.com/PKU-Alignment/TransformerLens-V",
+          "description": "PKU accepted-release repository extending TransformerLens to multimodal models."
+        },
+        {
+          "full_name": "poloclub/transformer-explainer",
+          "url": "https://github.com/poloclub/transformer-explainer",
+          "description": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization"
+        },
+        {
+          "full_name": "safety-research/sparse-feature-toolkit",
+          "url": "https://github.com/safety-research/sparse-feature-toolkit",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "TransformerLensOrg/TransformerLens",
+          "url": "https://github.com/TransformerLensOrg/TransformerLens",
+          "description": "A library for mechanistic interpretability of GPT-style language models"
+        }
+      ]
+    },
+    {
+      "name": "Interp Experiments & Papers",
+      "description": "Research code for probes, steering, model diffing, introspection, learning dynamics, and causal interpretability.",
+      "tier": "operational-core",
+      "repository_count": 10,
+      "repositories": [
+        {
+          "full_name": "anthropics/jacobian-lens",
+          "url": "https://github.com/anthropics/jacobian-lens",
+          "description": "Companion code for the global workspace interpretability paper"
+        },
+        {
+          "full_name": "EleutherAI/pythia",
+          "url": "https://github.com/EleutherAI/pythia",
+          "description": "The hub for EleutherAI's work on interpretability and learning dynamics"
+        },
+        {
+          "full_name": "PKU-Alignment/llms-resist-alignment",
+          "url": "https://github.com/PKU-Alignment/llms-resist-alignment",
+          "description": "Code and models for empirical and theoretical work on alignment elasticity after fine-tuning."
+        },
+        {
+          "full_name": "PKU-Alignment/SAE-V",
+          "url": "https://github.com/PKU-Alignment/SAE-V",
+          "description": "Paper and research entry point for multimodal sparse-autoencoder interpretability."
+        },
+        {
+          "full_name": "safety-research/introspection-mechanisms",
+          "url": "https://github.com/safety-research/introspection-mechanisms",
+          "description": "Code for the \"Mechanisms of Introspective Awareness\" paper."
+        },
+        {
+          "full_name": "safety-research/misalignment-indicators",
+          "url": "https://github.com/safety-research/misalignment-indicators",
+          "description": "Source code for the paper: Probing the Misaligned Thinking Process of Language Models"
+        },
+        {
+          "full_name": "safety-research/open-source-em-features",
+          "url": "https://github.com/safety-research/open-source-em-features",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/selective-gradient-masking",
+          "url": "https://github.com/safety-research/selective-gradient-masking",
+          "description": "Training Transformers with knowledge localization (SGTM)"
+        },
+        {
+          "full_name": "safety-research/weight-steering",
+          "url": "https://github.com/safety-research/weight-steering",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "timaeus-research/devinterp",
+          "url": "https://github.com/timaeus-research/devinterp",
+          "description": "Tools for studying developmental interpretability in neural networks."
+        }
+      ]
+    },
+    {
+      "name": "Safety Math & Formal Methods",
+      "description": "Math for AI safety, formal verification, theorem proving, decision theory, game theory, and proof tooling.",
+      "tier": "operational-core",
+      "repository_count": 9,
+      "repositories": [
+        {
+          "full_name": "fiezt/ICML-2020-Implicit-Stackelberg-Learning",
+          "url": "https://github.com/fiezt/ICML-2020-Implicit-Stackelberg-Learning",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "fiezt/Stackelberg-Code",
+          "url": "https://github.com/fiezt/Stackelberg-Code",
+          "description": "Code for \"Convergence of Learning Dynamics in Stackelberg Games\""
+        },
+        {
+          "full_name": "FStarLang/FStar",
+          "url": "https://github.com/FStarLang/FStar",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "google-deepmind/deep-verify",
+          "url": "https://github.com/google-deepmind/deep-verify",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "lionellevine/MAIS",
+          "url": "https://github.com/lionellevine/MAIS",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "ml4tp/gamepad",
+          "url": "https://github.com/ml4tp/gamepad",
+          "description": "A Learning Environment for Theorem Proving"
+        },
+        {
+          "full_name": "OpenLogicProject/OpenLogic",
+          "url": "https://github.com/OpenLogicProject/OpenLogic",
+          "description": "An open-source, customizable intermediate logic textbook"
+        },
+        {
+          "full_name": "prove-rs/z3.rs",
+          "url": "https://github.com/prove-rs/z3.rs",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "scipopt/PySCIPOpt",
+          "url": "https://github.com/scipopt/PySCIPOpt",
+          "description": "Python interface for the SCIP Optimization Suite"
+        }
+      ]
+    },
+    {
+      "name": "Research Infrastructure",
+      "description": "Inference APIs, experiment scaffolds, cloud runners, provenance, labeling, tracking, and analysis tools.",
+      "tier": "operational-core",
+      "repository_count": 9,
+      "repositories": [
+        {
+          "full_name": "facebookresearch/hydra",
+          "url": "https://github.com/facebookresearch/hydra",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "METR/hawk",
+          "url": "https://github.com/METR/hawk",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "mlflow/mlflow",
+          "url": "https://github.com/mlflow/mlflow",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "paperswithcode/releasing-research-code",
+          "url": "https://github.com/paperswithcode/releasing-research-code",
+          "description": "Tips for releasing research code in Machine Learning (with official NeurIPS 2020 recommendations)"
+        },
+        {
+          "full_name": "PKU-Alignment/omnisafe",
+          "url": "https://github.com/PKU-Alignment/omnisafe",
+          "description": "Safe reinforcement learning algorithm infrastructure, not an environment provider."
+        },
+        {
+          "full_name": "safety-research/safety-tooling",
+          "url": "https://github.com/safety-research/safety-tooling",
+          "description": "Inference API for many LLMs and other useful tools for empirical research"
+        },
+        {
+          "full_name": "treeverse/dvc",
+          "url": "https://github.com/treeverse/dvc",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "UKGovernmentBEIS/inspect_ai",
+          "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+          "description": "Inspect: A framework for large language model evaluations"
+        },
+        {
+          "full_name": "wandb/wandb",
+          "url": "https://github.com/wandb/wandb",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        }
+      ]
+    },
+    {
+      "name": "Agents & Research Automation",
+      "description": "Research agents, bounded autonomous science, agent harnesses, MCP, and machine-learning engineering agents.",
+      "tier": "operational-core",
+      "repository_count": 5,
+      "repositories": [
+        {
+          "full_name": "mmaaz-git/agentic-pbt",
+          "url": "https://github.com/mmaaz-git/agentic-pbt",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "modelcontextprotocol/modelcontextprotocol",
+          "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+          "description": "Specification and documentation for the Model Context Protocol"
+        },
+        {
+          "full_name": "PrimeIntellect-ai/prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+        },
+        {
+          "full_name": "SakanaAI/AI-Scientist-v2",
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+          "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
+        },
+        {
+          "full_name": "WecoAI/aideml",
+          "url": "https://github.com/WecoAI/aideml",
+          "description": "AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D."
+        }
+      ]
+    },
+    {
+      "name": "Training & Model Systems",
+      "description": "Pretraining, post-training, RLHF, distributed training, inference, quantization, tokenization, and model systems.",
+      "tier": "operational-core",
+      "repository_count": 17,
+      "repositories": [
+        {
+          "full_name": "Dao-AILab/flash-attention",
+          "url": "https://github.com/Dao-AILab/flash-attention",
+          "description": "Fast and memory-efficient exact attention"
+        },
+        {
+          "full_name": "deepspeedai/DeepSpeed",
+          "url": "https://github.com/deepspeedai/DeepSpeed",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "hiyouga/LlamaFactory",
+          "url": "https://github.com/hiyouga/LlamaFactory",
+          "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+        },
+        {
+          "full_name": "huggingface/peft",
+          "url": "https://github.com/huggingface/peft",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "huggingface/tokenizers",
+          "url": "https://github.com/huggingface/tokenizers",
+          "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+        },
+        {
+          "full_name": "huggingface/trl",
+          "url": "https://github.com/huggingface/trl",
+          "description": "Train transformer language models with reinforcement learning."
+        },
+        {
+          "full_name": "NVIDIA/Megatron-LM",
+          "url": "https://github.com/NVIDIA/Megatron-LM",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "OpenRLHF/OpenRLHF",
+          "url": "https://github.com/OpenRLHF/OpenRLHF",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "PKU-Alignment/align-anything",
+          "url": "https://github.com/PKU-Alignment/align-anything",
+          "description": "Multimodal alignment training framework supporting SFT, DPO, PPO, and related methods."
+        },
+        {
+          "full_name": "PKU-Alignment/aligner",
+          "url": "https://github.com/PKU-Alignment/aligner",
+          "description": "Model-agnostic correction module for alignment training and deployment experiments."
+        },
+        {
+          "full_name": "PKU-Alignment/safe-rlhf",
+          "url": "https://github.com/PKU-Alignment/safe-rlhf",
+          "description": "Safe RLHF training pipeline with reward and cost modeling."
+        },
+        {
+          "full_name": "PKU-Alignment/SafeDreamer",
+          "url": "https://github.com/PKU-Alignment/SafeDreamer",
+          "description": "Safe reinforcement learning algorithm using world models. It is not categorized as an environment."
+        },
+        {
+          "full_name": "PKU-Alignment/SafeVLA",
+          "url": "https://github.com/PKU-Alignment/SafeVLA",
+          "description": "Constrained-learning code and benchmark assets for VLA safety alignment."
+        },
+        {
+          "full_name": "pytorch/torchtitan",
+          "url": "https://github.com/pytorch/torchtitan",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "sgl-project/sglang",
+          "url": "https://github.com/sgl-project/sglang",
+          "description": "SGLang is a high-performance serving framework for large language models and multimodal models."
+        },
+        {
+          "full_name": "vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        }
+      ]
+    },
+    {
+      "name": "Digital Minds & Welfare",
+      "description": "Machine consciousness, introspection, valence, welfare, personas, and internal-state research.",
+      "tier": "operational-core",
+      "repository_count": 4,
+      "repositories": [
+        {
+          "full_name": "safety-research/assistant-axis",
+          "url": "https://github.com/safety-research/assistant-axis",
+          "description": "The Assistant Axis is a direction in activation space that captures how \"Assistant-like\" a model's behavior is. Models can drift away from the Assistant during conversations, sometimes toward bizarre or harmful personas. This repo contains a pipeline for generating the Assistant Axis and notebooks for monitoring..."
+        },
+        {
+          "full_name": "safety-research/introspection-adapters",
+          "url": "https://github.com/safety-research/introspection-adapters",
+          "description": "Training LLMs to Report Their Learned Behaviors"
+        },
+        {
+          "full_name": "safety-research/introspection-mechanisms",
+          "url": "https://github.com/safety-research/introspection-mechanisms",
+          "description": "Code for the \"Mechanisms of Introspective Awareness\" paper."
+        },
+        {
+          "full_name": "safety-research/persona_vectors",
+          "url": "https://github.com/safety-research/persona_vectors",
+          "description": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models"
+        }
+      ]
+    },
+    {
+      "name": "Datasets & Benchmarks",
+      "description": "Safety, capability, agent, interpretability, and ML datasets and benchmark suites.",
+      "tier": "operational-core",
+      "repository_count": 14,
+      "repositories": [
+        {
+          "full_name": "EleutherAI/pythia",
+          "url": "https://github.com/EleutherAI/pythia",
+          "description": "The hub for EleutherAI's work on interpretability and learning dynamics"
+        },
+        {
+          "full_name": "PKU-Alignment/beavertails",
+          "url": "https://github.com/PKU-Alignment/beavertails",
+          "description": "Human-preference datasets for safety alignment research."
+        },
+        {
+          "full_name": "PKU-Alignment/eval-anything",
+          "url": "https://github.com/PKU-Alignment/eval-anything",
+          "description": "All-modality safety evaluation framework integrating more than 50 datasets."
+        },
+        {
+          "full_name": "PKU-Alignment/MM-DeceptionBench",
+          "url": "https://github.com/PKU-Alignment/MM-DeceptionBench",
+          "description": "Static multimodal deception benchmark with six deception categories. It is not presented as a monitoring tool."
+        },
+        {
+          "full_name": "PKU-Alignment/ProgressGym",
+          "url": "https://github.com/PKU-Alignment/ProgressGym",
+          "description": "Research framework for progress alignment. Kept in the prototype tier because packaging remains incomplete."
+        },
+        {
+          "full_name": "PKU-Alignment/safe-sora",
+          "url": "https://github.com/PKU-Alignment/safe-sora",
+          "description": "Human-preference dataset and code for text-to-video safety alignment."
+        },
+        {
+          "full_name": "PKU-Alignment/safety-gymnasium",
+          "url": "https://github.com/PKU-Alignment/safety-gymnasium",
+          "description": "Unified safe reinforcement learning environment and benchmark."
+        },
+        {
+          "full_name": "PKU-Alignment/SPIKE-Bench",
+          "url": "https://github.com/PKU-Alignment/SPIKE-Bench",
+          "description": "Biosecurity benchmark with a public screening pipeline and reviewed access to the prompt set."
+        },
+        {
+          "full_name": "PKU-Alignment/VLA-Arena",
+          "url": "https://github.com/PKU-Alignment/VLA-Arena",
+          "description": "Vision-language-action evaluation framework with safety, generalization, and long-horizon task suites."
+        },
+        {
+          "full_name": "safety-research/agent-escape-bench",
+          "url": "https://github.com/safety-research/agent-escape-bench",
+          "description": "Sandbox escape benchmark for LLM capability evaluation"
+        },
+        {
+          "full_name": "safety-research/impossiblebench",
+          "url": "https://github.com/safety-research/impossiblebench",
+          "description": "Official Inspect Implementation for \"ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases\""
+        },
+        {
+          "full_name": "safety-research/SCONE-bench",
+          "url": "https://github.com/safety-research/SCONE-bench",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "safety-research/sleight-bench",
+          "url": "https://github.com/safety-research/sleight-bench",
+          "description": "Benchmark dataset for evaluating trusted monitors on AI agent transcripts"
+        },
+        {
+          "full_name": "sunblaze-ucb/exploitgym",
+          "url": "https://github.com/sunblaze-ucb/exploitgym",
+          "description": "ExploitGym is a large-scale, realistic benchmark built from real-world vulnerabilities designed to evaluate AI agents' ability to develop exploits."
+        }
+      ]
+    },
+    {
+      "name": "Research Prototypes & References",
+      "description": "Undocumented, early-stage, or legacy research artifacts kept for discovery, not presented as production-ready tools.",
+      "tier": "experimental-reference",
+      "repository_count": 15,
+      "repositories": [
+        {
+          "full_name": "edkins/ai_risk_viewer",
+          "url": "https://github.com/edkins/ai_risk_viewer",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "edkins/blind-audit",
+          "url": "https://github.com/edkins/blind-audit",
+          "description": "Technical AI governance hackathon project"
+        },
+        {
+          "full_name": "edkins/interp-ausp",
+          "url": "https://github.com/edkins/interp-ausp",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "edkins/interp-bitoken",
+          "url": "https://github.com/edkins/interp-bitoken",
+          "description": "Interpreting how GPT deals with words made up of pairs of tokens"
+        },
+        {
+          "full_name": "edkins/interp-docreduce",
+          "url": "https://github.com/edkins/interp-docreduce",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "edkins/math-db",
+          "url": "https://github.com/edkins/math-db",
+          "description": "Database of mathematical structures available in proof assistants such as Coq and Agda"
+        },
+        {
+          "full_name": "edkins/proof-comparison",
+          "url": "https://github.com/edkins/proof-comparison",
+          "description": "Shallow investigation of different proof assistants. Attempt to complete simple tasks with each one."
+        },
+        {
+          "full_name": "edkins/rust-pa",
+          "url": "https://github.com/edkins/rust-pa",
+          "description": "Peano arithmetic proof checker in Rust"
+        },
+        {
+          "full_name": "edkins/solver-lang",
+          "url": "https://github.com/edkins/solver-lang",
+          "description": "Language built on top of z3 solver"
+        },
+        {
+          "full_name": "Mzane0803/the_consciousness_ai",
+          "url": "https://github.com/Mzane0803/the_consciousness_ai",
+          "description": "The Consciousness AI"
+        },
+        {
+          "full_name": "PKU-Alignment/ProAgent",
+          "url": "https://github.com/PKU-Alignment/ProAgent",
+          "description": "Cooperative-agent research artifact requiring legacy Python 3.7 and TensorFlow 1 dependencies."
+        },
+        {
+          "full_name": "PKU-Alignment/ProgressGym",
+          "url": "https://github.com/PKU-Alignment/ProgressGym",
+          "description": "Research framework for progress alignment. Kept in the prototype tier because packaging remains incomplete."
+        },
+        {
+          "full_name": "PKU-Alignment/ReDMan",
+          "url": "https://github.com/PKU-Alignment/ReDMan",
+          "description": "Safe dexterous-manipulation simulation platform. Documentation remains in development."
+        },
+        {
+          "full_name": "safety-research/crosscoder_emergent_misalignment",
+          "url": "https://github.com/safety-research/crosscoder_emergent_misalignment",
+          "description": "Applying crosscoder model diffing to emergently misaligned models"
+        },
+        {
+          "full_name": "safety-research/unsupervised-truth-probes",
+          "url": "https://github.com/safety-research/unsupervised-truth-probes",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        }
+      ]
+    },
+    {
+      "name": "Learn Safety & Interpretability",
+      "description": "Courses, guides, exercises, reading lists, and visual explainers for technical safety and interpretability.",
+      "tier": "operational-core",
+      "repository_count": 7,
+      "repositories": [
+        {
+          "full_name": "AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+          "url": "https://github.com/AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "callummcdougall/ARENA_3.0",
+          "url": "https://github.com/callummcdougall/ARENA_3.0",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "lionellevine/MAIS",
+          "url": "https://github.com/lionellevine/MAIS",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "OpenLogicProject/OpenLogic",
+          "url": "https://github.com/OpenLogicProject/OpenLogic",
+          "description": "An open-source, customizable intermediate logic textbook"
+        },
+        {
+          "full_name": "PKU-Alignment/AlignmentSurvey",
+          "url": "https://github.com/PKU-Alignment/AlignmentSurvey",
+          "description": "Survey and structured reading map covering AI alignment."
+        },
+        {
+          "full_name": "poloclub/transformer-explainer",
+          "url": "https://github.com/poloclub/transformer-explainer",
+          "description": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization"
+        },
+        {
+          "full_name": "TransformerLensOrg/TransformerLens",
+          "url": "https://github.com/TransformerLensOrg/TransformerLens",
+          "description": "A library for mechanistic interpretability of GPT-style language models"
+        }
+      ]
+    },
+    {
+      "name": "Learn ML, RL & Systems",
+      "description": "High-quality courses, books, labs, and from-scratch implementations for ML, RL, and systems foundations.",
+      "tier": "operational-core",
+      "repository_count": 8,
+      "repositories": [
+        {
+          "full_name": "fastai/fastai",
+          "url": "https://github.com/fastai/fastai",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "karpathy/llm.c",
+          "url": "https://github.com/karpathy/llm.c",
+          "description": "LLM training in simple, raw C/CUDA"
+        },
+        {
+          "full_name": "karpathy/nanochat",
+          "url": "https://github.com/karpathy/nanochat",
+          "description": "The best ChatGPT that $100 can buy."
+        },
+        {
+          "full_name": "MITDeepLearning/introtodeeplearning",
+          "url": "https://github.com/MITDeepLearning/introtodeeplearning",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "mryab/efficient-dl-systems",
+          "url": "https://github.com/mryab/efficient-dl-systems",
+          "description": "Efficient Deep Learning Systems course materials"
+        },
+        {
+          "full_name": "nivu/ai_all_resources",
+          "url": "https://github.com/nivu/ai_all_resources",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "openai/spinningup",
+          "url": "https://github.com/openai/spinningup",
+          "description": "An educational resource to help anyone learn deep reinforcement learning."
+        },
+        {
+          "full_name": "skyzh/tiny-llm",
+          "url": "https://github.com/skyzh/tiny-llm",
+          "description": "A course of learning LLM inference serving on Apple Silicon for systems engineers: build a tiny vLLM + Qwen."
+        }
+      ]
+    },
+    {
+      "name": "Research Maps & Awesome Lists",
+      "description": "Curated maps, bibliographies, roadmaps, and repository collections for discovery and study.",
+      "tier": "operational-core",
+      "repository_count": 7,
+      "repositories": [
+        {
+          "full_name": "AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+          "url": "https://github.com/AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "awesomedata/awesome-public-datasets",
+          "url": "https://github.com/awesomedata/awesome-public-datasets",
+          "description": "A topic-centric list of HQ open datasets."
+        },
+        {
+          "full_name": "Hack-with-Github/Awesome-Hacking",
+          "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "description": "A collection of various awesome lists for hackers, pentesters and security researchers"
+        },
+        {
+          "full_name": "nivu/ai_all_resources",
+          "url": "https://github.com/nivu/ai_all_resources",
+          "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use."
+        },
+        {
+          "full_name": "PKU-Alignment/AlignmentSurvey",
+          "url": "https://github.com/PKU-Alignment/AlignmentSurvey",
+          "description": "Survey and structured reading map covering AI alignment."
+        },
+        {
+          "full_name": "Saibo-creator/Awesome-LLM-Constrained-Decoding",
+          "url": "https://github.com/Saibo-creator/Awesome-LLM-Constrained-Decoding",
+          "description": "A curated list of papers related to constrained decoding of LLM, along with their relevant code and resources."
+        },
+        {
+          "full_name": "Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+          "url": "https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+          "description": "📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥"
+        }
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "full_name": "AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+      "url": "https://github.com/AI-in-Transportation-Lab/awesome-mechanistic-interpretability",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Learn Safety & Interpretability",
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "aliasrobotics/cai",
+      "url": "https://github.com/aliasrobotics/cai",
+      "description": "Cybersecurity AI (CAI), the framework for AI Security",
+      "memberships": [
+        "Cybersecurity & Exploit Research"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "anthropics/jacobian-lens",
+      "url": "https://github.com/anthropics/jacobian-lens",
+      "description": "Companion code for the global workspace interpretability paper",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "awesomedata/awesome-public-datasets",
+      "url": "https://github.com/awesomedata/awesome-public-datasets",
+      "description": "A topic-centric list of HQ open datasets.",
+      "memberships": [
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "callummcdougall/ARENA_3.0",
+      "url": "https://github.com/callummcdougall/ARENA_3.0",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Learn Safety & Interpretability"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "centerforaisafety/HarmBench",
+      "url": "https://github.com/centerforaisafety/HarmBench",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "cfpark00/rl-environments",
+      "url": "https://github.com/cfpark00/rl-environments",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Dao-AILab/flash-attention",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "description": "Fast and memory-efficient exact attention",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "decoderesearch/circuit-tracer",
+      "url": "https://github.com/decoderesearch/circuit-tracer",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "decoderesearch/SAELens",
+      "url": "https://github.com/decoderesearch/SAELens",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "deepspeedai/DeepSpeed",
+      "url": "https://github.com/deepspeedai/DeepSpeed",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "dissensus-ai/autonomous-red-team",
+      "url": "https://github.com/dissensus-ai/autonomous-red-team",
+      "description": "Autonomous Red Team: Multi-Agent Adversarial Security Testing ,  paper + proof-of-concept framework | DAI-2513 | Dissensus AI Working Paper",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/ai_risk_viewer",
+      "url": "https://github.com/edkins/ai_risk_viewer",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/blind-audit",
+      "url": "https://github.com/edkins/blind-audit",
+      "description": "Technical AI governance hackathon project",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/interp-ausp",
+      "url": "https://github.com/edkins/interp-ausp",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/interp-bitoken",
+      "url": "https://github.com/edkins/interp-bitoken",
+      "description": "Interpreting how GPT deals with words made up of pairs of tokens",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/interp-docreduce",
+      "url": "https://github.com/edkins/interp-docreduce",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/math-db",
+      "url": "https://github.com/edkins/math-db",
+      "description": "Database of mathematical structures available in proof assistants such as Coq and Agda",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/proof-comparison",
+      "url": "https://github.com/edkins/proof-comparison",
+      "description": "Shallow investigation of different proof assistants. Attempt to complete simple tasks with each one.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/rust-pa",
+      "url": "https://github.com/edkins/rust-pa",
+      "description": "Peano arithmetic proof checker in Rust",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "edkins/solver-lang",
+      "url": "https://github.com/edkins/solver-lang",
+      "description": "Language built on top of z3 solver",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "edkins_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "elder-plinius/T3MP3ST",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "EleutherAI/pythia",
+      "url": "https://github.com/EleutherAI/pythia",
+      "description": "The hub for EleutherAI's work on interpretability and learning dynamics",
+      "memberships": [
+        "Interp Experiments & Papers",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "facebookresearch/hydra",
+      "url": "https://github.com/facebookresearch/hydra",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Farama-Foundation/Gymnasium",
+      "url": "https://github.com/Farama-Foundation/Gymnasium",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Farama-Foundation/PettingZoo",
+      "url": "https://github.com/Farama-Foundation/PettingZoo",
+      "description": "A standard API for multi-agent reinforcement learning environments, with popular reference environments and related utilities",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "fastai/fastai",
+      "url": "https://github.com/fastai/fastai",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "fiezt/ICML-2020-Implicit-Stackelberg-Learning",
+      "url": "https://github.com/fiezt/ICML-2020-Implicit-Stackelberg-Learning",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "fiezt/Stackelberg-Code",
+      "url": "https://github.com/fiezt/Stackelberg-Code",
+      "description": "Code for \"Convergence of Learning Dynamics in Stackelberg Games\"",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "FStarLang/FStar",
+      "url": "https://github.com/FStarLang/FStar",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "gambitproject/gte",
+      "url": "https://github.com/gambitproject/gte",
+      "description": "Game Theory Explorer: Build, explore and solve extensive form games.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star",
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Goochbeater/Spiritual-Spell-Red-Teaming",
+      "url": "https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming",
+      "description": "A repo for jailbreaking various LLMs, mainly Claude",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "google-deepmind/deep-verify",
+      "url": "https://github.com/google-deepmind/deep-verify",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "google-deepmind/meltingpot",
+      "url": "https://github.com/google-deepmind/meltingpot",
+      "description": "A suite of test scenarios for multi-agent reinforcement learning.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "google-deepmind/open_spiel",
+      "url": "https://github.com/google-deepmind/open_spiel",
+      "description": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Hack-with-Github/Awesome-Hacking",
+      "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "memberships": [
+        "Cybersecurity & Exploit Research",
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "haizelabs/llama3-jailbreak",
+      "url": "https://github.com/haizelabs/llama3-jailbreak",
+      "description": "A trivial programmatic Llama 3 jailbreak. Sorry Zuck!",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "hijohnnylin/neuronpedia",
+      "url": "https://github.com/hijohnnylin/neuronpedia",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "huggingface/peft",
+      "url": "https://github.com/huggingface/peft",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "huggingface/tokenizers",
+      "url": "https://github.com/huggingface/tokenizers",
+      "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "huggingface/trl",
+      "url": "https://github.com/huggingface/trl",
+      "description": "Train transformer language models with reinforcement learning.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "HumanCompatibleAI/overcooked_ai",
+      "url": "https://github.com/HumanCompatibleAI/overcooked_ai",
+      "description": "A benchmark environment for fully cooperative human-AI performance.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "invariantlabs-ai/invariant",
+      "url": "https://github.com/invariantlabs-ai/invariant",
+      "description": "Guardrails for secure and robust agent development",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "ispras/casr",
+      "url": "https://github.com/ispras/casr",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Cybersecurity & Exploit Research"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "JailbreakBench/jailbreakbench",
+      "url": "https://github.com/JailbreakBench/jailbreakbench",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "joie-zhang/bargain",
+      "url": "https://github.com/joie-zhang/bargain",
+      "description": "Multi-Agent LLM Bargaining and Negotiation",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "karpathy/llm.c",
+      "url": "https://github.com/karpathy/llm.c",
+      "description": "LLM training in simple, raw C/CUDA",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "lionellevine/MAIS",
+      "url": "https://github.com/lionellevine/MAIS",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Math & Formal Methods",
+        "Learn Safety & Interpretability"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "llm-attacks/llm-attacks",
+      "url": "https://github.com/llm-attacks/llm-attacks",
+      "description": "Universal and Transferable Attacks on Aligned Language Models",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "longtermrisk/marltoolbox",
+      "url": "https://github.com/longtermrisk/marltoolbox",
+      "description": "A toolbox with the goal of speeding up research on bargaining in MARL (cooperation problems in MARL).",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "meridianlabs-ai/inspect_petri",
+      "url": "https://github.com/meridianlabs-ai/inspect_petri",
+      "description": "An alignment auditing agent capable of quickly exploring alignment hypothesis",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "meta-llama/PurpleLlama",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "METR/hawk",
+      "url": "https://github.com/METR/hawk",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "METR/task-standard",
+      "url": "https://github.com/METR/task-standard",
+      "description": "METR Task Standard",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "MITDeepLearning/introtodeeplearning",
+      "url": "https://github.com/MITDeepLearning/introtodeeplearning",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "ml4tp/gamepad",
+      "url": "https://github.com/ml4tp/gamepad",
+      "description": "A Learning Environment for Theorem Proving",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "mlflow/mlflow",
+      "url": "https://github.com/mlflow/mlflow",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "mmaaz-git/agentic-pbt",
+      "url": "https://github.com/mmaaz-git/agentic-pbt",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Agents & Research Automation"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "modelcontextprotocol/modelcontextprotocol",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "description": "Specification and documentation for the Model Context Protocol",
+      "memberships": [
+        "Agents & Research Automation"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "mryab/efficient-dl-systems",
+      "url": "https://github.com/mryab/efficient-dl-systems",
+      "description": "Efficient Deep Learning Systems course materials",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Mzane0803/the_consciousness_ai",
+      "url": "https://github.com/Mzane0803/the_consciousness_ai",
+      "description": "The Consciousness AI",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "personal_repo_private_aware",
+        "personal_repo_public",
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "ndif-team/nnsight",
+      "url": "https://github.com/ndif-team/nnsight",
+      "description": "The nnsight package enables interpreting and manipulating the internals of deep learned models.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "neelnanda-io/Neuroscope",
+      "url": "https://github.com/neelnanda-io/Neuroscope",
+      "description": "Accompanying codebase for neuroscope.io, a website for displaying max activating dataset examples for language model neurons",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "nivu/ai_all_resources",
+      "url": "https://github.com/nivu/ai_all_resources",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Learn ML, RL & Systems",
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "nivu_ai_all_resources"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "NVIDIA/Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "openai/spinningup",
+      "url": "https://github.com/openai/spinningup",
+      "description": "An educational resource to help anyone learn deep reinforcement learning.",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "OpenLogicProject/OpenLogic",
+      "url": "https://github.com/OpenLogicProject/OpenLogic",
+      "description": "An open-source, customizable intermediate logic textbook",
+      "memberships": [
+        "Safety Math & Formal Methods",
+        "Learn Safety & Interpretability"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "OpenRLHF/OpenRLHF",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "oxwhirl/pymarl",
+      "url": "https://github.com/oxwhirl/pymarl",
+      "description": "Python Multi-Agent Reinforcement Learning framework",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "paperswithcode/releasing-research-code",
+      "url": "https://github.com/paperswithcode/releasing-research-code",
+      "description": "Tips for releasing research code in Machine Learning (with official NeurIPS 2020 recommendations)",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "PKU-Alignment/align-anything",
+      "url": "https://github.com/PKU-Alignment/align-anything",
+      "description": "Multimodal alignment training framework supporting SFT, DPO, PPO, and related methods.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/aligner",
+      "url": "https://github.com/PKU-Alignment/aligner",
+      "description": "Model-agnostic correction module for alignment training and deployment experiments.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/AlignmentSurvey",
+      "url": "https://github.com/PKU-Alignment/AlignmentSurvey",
+      "description": "Survey and structured reading map covering AI alignment.",
+      "memberships": [
+        "Learn Safety & Interpretability",
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/beavertails",
+      "url": "https://github.com/PKU-Alignment/beavertails",
+      "description": "Human-preference datasets for safety alignment research.",
+      "memberships": [
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/eval-anything",
+      "url": "https://github.com/PKU-Alignment/eval-anything",
+      "description": "All-modality safety evaluation framework integrating more than 50 datasets.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/llms-resist-alignment",
+      "url": "https://github.com/PKU-Alignment/llms-resist-alignment",
+      "description": "Code and models for empirical and theoretical work on alignment elasticity after fine-tuning.",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/MM-DeceptionBench",
+      "url": "https://github.com/PKU-Alignment/MM-DeceptionBench",
+      "description": "Static multimodal deception benchmark with six deception categories. It is not presented as a monitoring tool.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/omnisafe",
+      "url": "https://github.com/PKU-Alignment/omnisafe",
+      "description": "Safe reinforcement learning algorithm infrastructure, not an environment provider.",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/ProAgent",
+      "url": "https://github.com/PKU-Alignment/ProAgent",
+      "description": "Cooperative-agent research artifact requiring legacy Python 3.7 and TensorFlow 1 dependencies.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/ProgressGym",
+      "url": "https://github.com/PKU-Alignment/ProgressGym",
+      "description": "Research framework for progress alignment. Kept in the prototype tier because packaging remains incomplete.",
+      "memberships": [
+        "Datasets & Benchmarks",
+        "Research Prototypes & References"
+      ],
+      "maturity": "cross-listed experimental",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/ReDMan",
+      "url": "https://github.com/PKU-Alignment/ReDMan",
+      "description": "Safe dexterous-manipulation simulation platform. Documentation remains in development.",
+      "memberships": [
+        "RL Environments & Games",
+        "Research Prototypes & References"
+      ],
+      "maturity": "cross-listed experimental",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/SAE-V",
+      "url": "https://github.com/PKU-Alignment/SAE-V",
+      "description": "Paper and research entry point for multimodal sparse-autoencoder interpretability.",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/SAELens-V",
+      "url": "https://github.com/PKU-Alignment/SAELens-V",
+      "description": "PKU accepted-release repository for multimodal sparse-autoencoder training and analysis.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/Safe-Policy-Optimization",
+      "url": "https://github.com/PKU-Alignment/Safe-Policy-Optimization",
+      "description": "Safe reinforcement learning algorithm benchmark. It is not categorized as an environment.",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/safe-rlhf",
+      "url": "https://github.com/PKU-Alignment/safe-rlhf",
+      "description": "Safe RLHF training pipeline with reward and cost modeling.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/safe-sora",
+      "url": "https://github.com/PKU-Alignment/safe-sora",
+      "description": "Human-preference dataset and code for text-to-video safety alignment.",
+      "memberships": [
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/SafeDreamer",
+      "url": "https://github.com/PKU-Alignment/SafeDreamer",
+      "description": "Safe reinforcement learning algorithm using world models. It is not categorized as an environment.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/safety-gymnasium",
+      "url": "https://github.com/PKU-Alignment/safety-gymnasium",
+      "description": "Unified safe reinforcement learning environment and benchmark.",
+      "memberships": [
+        "RL Environments & Games",
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/SafeVLA",
+      "url": "https://github.com/PKU-Alignment/SafeVLA",
+      "description": "Constrained-learning code and benchmark assets for VLA safety alignment.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/SPIKE-Bench",
+      "url": "https://github.com/PKU-Alignment/SPIKE-Bench",
+      "description": "Biosecurity benchmark with a public screening pipeline and reviewed access to the prompt set.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/TransformerLens-V",
+      "url": "https://github.com/PKU-Alignment/TransformerLens-V",
+      "description": "PKU accepted-release repository extending TransformerLens to multimodal models.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "PKU-Alignment/VLA-Arena",
+      "url": "https://github.com/PKU-Alignment/VLA-Arena",
+      "description": "Vision-language-action evaluation framework with safety, generalization, and long-horizon task suites.",
+      "memberships": [
+        "RL Environments & Games",
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": true
+    },
+    {
+      "full_name": "poloclub/transformer-explainer",
+      "url": "https://github.com/poloclub/transformer-explainer",
+      "description": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization",
+      "memberships": [
+        "Mech Interp Tools",
+        "Learn Safety & Interpretability"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "memberships": [
+        "Agents & Research Automation"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic.",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "prove-rs/z3.rs",
+      "url": "https://github.com/prove-rs/z3.rs",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "pytorch/torchtitan",
+      "url": "https://github.com/pytorch/torchtitan",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "QData/TextAttack",
+      "url": "https://github.com/QData/TextAttack",
+      "description": "TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "redwoodresearch/bench-af-2",
+      "url": "https://github.com/redwoodresearch/bench-af-2",
+      "description": "Bench Alignment Faking: Alignment faking model organisms, detectors, and environments to catch misaligned models (Joshua Clymer MATS Stream Summer 2025)",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "rishub-tamirisa/tamper-resistance",
+      "url": "https://github.com/rishub-tamirisa/tamper-resistance",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/agent-escape-bench",
+      "url": "https://github.com/safety-research/agent-escape-bench",
+      "description": "Sandbox escape benchmark for LLM capability evaluation",
+      "memberships": [
+        "Alignment: Control & Monitoring",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/agent-transcript-editor",
+      "url": "https://github.com/safety-research/agent-transcript-editor",
+      "description": "Web UI for viewing, editing, and AI-assisted red teaming of AI agent transcripts",
+      "memberships": [
+        "AI Red Teaming & Jailbreaks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/alignment-faking-extensions",
+      "url": "https://github.com/safety-research/alignment-faking-extensions",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/assistant-axis",
+      "url": "https://github.com/safety-research/assistant-axis",
+      "description": "The Assistant Axis is a direction in activation space that captures how \"Assistant-like\" a model's behavior is. Models can drift away from the Assistant during conversations, sometimes toward bizarre or harmful personas. This repo contains a pipeline for generating the Assistant Axis and notebooks for monitoring...",
+      "memberships": [
+        "Alignment: Control & Monitoring",
+        "Digital Minds & Welfare"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/auditing-agents",
+      "url": "https://github.com/safety-research/auditing-agents",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/bloom",
+      "url": "https://github.com/safety-research/bloom",
+      "description": "bloom - evaluate any behavior immediately 🌸🌱",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/crosscoder_emergent_misalignment",
+      "url": "https://github.com/safety-research/crosscoder_emergent_misalignment",
+      "description": "Applying crosscoder model diffing to emergently misaligned models",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/data-poisoning-public",
+      "url": "https://github.com/safety-research/data-poisoning-public",
+      "description": "Data poisoning experiments to support the study of emergent misalignment",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/faithful-cot",
+      "url": "https://github.com/safety-research/faithful-cot",
+      "description": "Code for \"Faithfulness as Information Flow: Evaluating and Training Faithful Chain-of-Thought Reasoning\"",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/false-facts",
+      "url": "https://github.com/safety-research/false-facts",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/finetuning-auditor",
+      "url": "https://github.com/safety-research/finetuning-auditor",
+      "description": "Auditing agents for fine-tuning safety",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/impossiblebench",
+      "url": "https://github.com/safety-research/impossiblebench",
+      "description": "Official Inspect Implementation for \"ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases\"",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/inoculation-prompting",
+      "url": "https://github.com/safety-research/inoculation-prompting",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/introspection-adapters",
+      "url": "https://github.com/safety-research/introspection-adapters",
+      "description": "Training LLMs to Report Their Learned Behaviors",
+      "memberships": [
+        "Digital Minds & Welfare"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/introspection-mechanisms",
+      "url": "https://github.com/safety-research/introspection-mechanisms",
+      "description": "Code for the \"Mechanisms of Introspective Awareness\" paper.",
+      "memberships": [
+        "Interp Experiments & Papers",
+        "Digital Minds & Welfare"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/legibility",
+      "url": "https://github.com/safety-research/legibility",
+      "description": "Which models are illegible under what conditions, and why? How does that impact monitorability?",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/lie-detector",
+      "url": "https://github.com/safety-research/lie-detector",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/misalignment-indicators",
+      "url": "https://github.com/safety-research/misalignment-indicators",
+      "description": "Source code for the paper: Probing the Misaligned Thinking Process of Language Models",
+      "memberships": [
+        "Alignment: Model Organisms",
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star",
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/open-source-alignment-faking",
+      "url": "https://github.com/safety-research/open-source-alignment-faking",
+      "description": "Open Source Replication of Anthropic's Alignment Faking Paper",
+      "memberships": [
+        "Alignment: Model Organisms"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/open-source-em-features",
+      "url": "https://github.com/safety-research/open-source-em-features",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/persona_vectors",
+      "url": "https://github.com/safety-research/persona_vectors",
+      "description": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+      "memberships": [
+        "Digital Minds & Welfare"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star",
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/safety-examples",
+      "url": "https://github.com/safety-research/safety-examples",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Evals & Auditing"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star",
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/safety-tooling",
+      "url": "https://github.com/safety-research/safety-tooling",
+      "description": "Inference API for many LLMs and other useful tools for empirical research",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star",
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/SCONE-bench",
+      "url": "https://github.com/safety-research/SCONE-bench",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/selective-gradient-masking",
+      "url": "https://github.com/safety-research/selective-gradient-masking",
+      "description": "Training Transformers with knowledge localization (SGTM)",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star",
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/sleight-bench",
+      "url": "https://github.com/safety-research/sleight-bench",
+      "description": "Benchmark dataset for evaluating trusted monitors on AI agent transcripts",
+      "memberships": [
+        "Alignment: Control & Monitoring",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/social_games",
+      "url": "https://github.com/safety-research/social_games",
+      "description": "llms playing coup",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/sparse-feature-toolkit",
+      "url": "https://github.com/safety-research/sparse-feature-toolkit",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Mech Interp Tools"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/trusted-monitor",
+      "url": "https://github.com/safety-research/trusted-monitor",
+      "description": "Evaluate AI agent transcripts for suspicious behavior (0-100 scoring)",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/unsupervised-truth-probes",
+      "url": "https://github.com/safety-research/unsupervised-truth-probes",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Prototypes & References"
+      ],
+      "maturity": "experimental or reference",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "safety-research/weight-steering",
+      "url": "https://github.com/safety-research/weight-steering",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "safety_research_repo"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Saibo-creator/Awesome-LLM-Constrained-Decoding",
+      "url": "https://github.com/Saibo-creator/Awesome-LLM-Constrained-Decoding",
+      "description": "A curated list of papers related to constrained decoding of LLM, along with their relevant code and resources.",
+      "memberships": [
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star",
+        "saibo_repo",
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "memberships": [
+        "Agents & Research Automation"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "scipopt/PySCIPOpt",
+      "url": "https://github.com/scipopt/PySCIPOpt",
+      "description": "Python interface for the SCIP Optimization Suite",
+      "memberships": [
+        "Safety Math & Formal Methods"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "skyzh/tiny-llm",
+      "url": "https://github.com/skyzh/tiny-llm",
+      "description": "A course of learning LLM inference serving on Apple Silicon for systems engineers: build a tiny vLLM + Qwen.",
+      "memberships": [
+        "Learn ML, RL & Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "snyk/agent-scan",
+      "url": "https://github.com/snyk/agent-scan",
+      "description": "Security scanner for AI agents, MCP servers and agent skills.",
+      "memberships": [
+        "Cybersecurity & Exploit Research"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "sunblaze-ucb/exploitgym",
+      "url": "https://github.com/sunblaze-ucb/exploitgym",
+      "description": "ExploitGym is a large-scale, realistic benchmark built from real-world vulnerabilities designed to evaluate AI agents' ability to develop exploits.",
+      "memberships": [
+        "Cybersecurity & Exploit Research",
+        "Datasets & Benchmarks"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "timaeus-research/devinterp",
+      "url": "https://github.com/timaeus-research/devinterp",
+      "description": "Tools for studying developmental interpretability in neural networks.",
+      "memberships": [
+        "Interp Experiments & Papers"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "personal_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "TransformerLensOrg/TransformerLens",
+      "url": "https://github.com/TransformerLensOrg/TransformerLens",
+      "description": "A library for mechanistic interpretability of GPT-style language models",
+      "memberships": [
+        "Mech Interp Tools",
+        "Learn Safety & Interpretability"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "edkins_star",
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "treeverse/dvc",
+      "url": "https://github.com/treeverse/dvc",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "UKGovernmentBEIS/control-arena",
+      "url": "https://github.com/UKGovernmentBEIS/control-arena",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Alignment: Control & Monitoring"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "UKGovernmentBEIS/inspect_ai",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "description": "Inspect: A framework for large language model evaluations",
+      "memberships": [
+        "Safety Evals & Auditing",
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Unity-Technologies/ml-agents",
+      "url": "https://github.com/Unity-Technologies/ml-agents",
+      "description": "The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning.",
+      "memberships": [
+        "RL Environments & Games"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "hammond_star",
+        "nivu_ai_all_resources"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Training & Model Systems"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "wandb/wandb",
+      "url": "https://github.com/wandb/wandb",
+      "description": "Selected public repository. Inspect its documentation, licence and current maintenance state before use.",
+      "memberships": [
+        "Research Infrastructure"
+      ],
+      "maturity": "operational core",
+      "source_flags": [],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "WecoAI/aideml",
+      "url": "https://github.com/WecoAI/aideml",
+      "description": "AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D.",
+      "memberships": [
+        "Agents & Research Automation"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    },
+    {
+      "full_name": "Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+      "url": "https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+      "description": "📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥",
+      "memberships": [
+        "Research Maps & Awesome Lists"
+      ],
+      "maturity": "operational core",
+      "source_flags": [
+        "saibo_star"
+      ],
+      "pku_reviewed": false
+    }
+  ]
+}
